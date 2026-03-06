@@ -99,3 +99,4 @@ let g:lightline = {
 " Configure YouCompleteMe
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm_extra_conf.py'
 let g:ycm_python_binary_path = '/usr/bin/python3'
+let g:ycm_show_diagnostics_ui = 0

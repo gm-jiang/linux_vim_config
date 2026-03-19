@@ -6,9 +6,13 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set autoindent
-filetype off                  " required
 set cul
 set nu
+set relativenumber
+set foldmethod=syntax
+set foldlevelstart=99
+set hlsearch
+filetype off                  " required
 
 " highlight VertSplit ctermbg=50 ctermfg=10
 set listchars=tab:▸\ ,space:·,trail:·,extends:→,precedes:←
@@ -65,7 +69,7 @@ map <F2> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '+'
 let g:NERDTreeDirArrowCollapsible = '-'
 let g:NERDTreeWinPos = 'left'
-let g:NERDTreeSize = 30
+let g:NERDTreeWinSize=30
 let g:NERDTreeShowLineNumbers = 1
 " let g:NERDTreeHidden=0
 
